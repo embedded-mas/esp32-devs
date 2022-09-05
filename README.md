@@ -7,6 +7,7 @@ Walkthrough for read and write with ESP32:
    3) Go to Tools > Board > Boards Manager, search for ESP32 and install the packcage.
    4) Go to Tools > Board > ESP32 Arduino and select the correct board you are working with.
    5) Install a JAVA compiler like Apache NetBeans. You can download this compiler in: https://netbeans.apache.org/download/nb125/nb125.html
+   6) If you are having trouble making the Arduino IDE recognize your board, check if you have the proper driver for ESP32 installed. If not, install the Silicon Labs CP210x USB to UART Bridge driver. You can download it in: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
 ►► Warnings:
 
