@@ -10,7 +10,7 @@ void setup()
 
 void loop() 
 {
-  Serial.println("teste");
+  Serial.println("test");
   while (Serial.available() > 0 ) {
 
      String str = Serial.readString();
