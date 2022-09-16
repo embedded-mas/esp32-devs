@@ -12,7 +12,7 @@ import arduino.Arduino;
 public class App {
 
 	public static void main(String[] args) {
-		Arduino a = new Arduino("COM3", 9600);  //serial port: possibly must be changed in different systems.    
+		Arduino a = new Arduino("/dev/ttyUSB0", 9600);  //serial port: possibly must be changed in different systems.    
 		a.openConnection();
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

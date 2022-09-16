@@ -9,12 +9,12 @@ import com.fazecast.jSerialComm.*;
 
 public class SerialRead {
     public String getGreeting() {
-        return "Hello world";
+        return "Hello world.";
     }
 
     public static void main(String[] args) {
         
-        Arduino a = new Arduino("COM3", 115200);      
+        Arduino a = new Arduino("/dev/ttyUSB0", 9600);      
         a.openConnection();
         
         String s = a.serialRead(); //read from serial until getting a linebreak (\n)
